@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>STREAM STREAKS</title>
+    <meta name="description" content="Sem direitos autorais.">
+
+    <link rel="icon" type="image/x-icon" href="">
+
+    <!-- FONTES VIDE CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="flex-1">
+            <h1 class="headline">FILMES E SÉRIES <span style="color: #f4353f;"><b>ILIMITADOS</b></span> EM 4K</h1>
+            <h2 class="headline-2">OBRAS CLÁSSICAS DISPONÍVEIS EM DOMÍNIO PÚBLICO, ORGANIZADAS EM UMA PLATAFORMA SEMELHANTE A NETFLIX</h2>
+            <div class="container-vsl">
+                <div class="container-vsl-2">
+                    <iframe class="vsl" id="youtube-video" width="780" height="439" src="https://www.youtube.com/embed/MLpWrANjFbI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <h2 class="pricing">OPTE POR + 2 TELAS - REMOVER ANÚNCIOS E DESBLOQUEAR OS CONTEÚDOS QUE FORAM <span style="color: #f4353f;" >REMASTERIZADOS</span> EM 4K</h2>
+            <div class="container-cta">
+                <a href="https://pay.kiwify.com.br/MRbIh1P" target="_blank"><button class="cta">SIM! EU QUERO ACESSAR AGORA!</button></a>
+            </div>
+            
+        </div>
+        <div class="flex-2">
+            <h2 class="pp">POLÍTICA DE PRIVACIDADE, TERMOS DE USO & CONTATO</h2>
+        </div>
+        
+        
+        <style>
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                text-decoration: none;
+                border: 0;
+                line-height: 1;
+            }
+
+            body {
+                font-size: 100%;
+                background-color: black;
+                overflow-x: hidden;
+                user-select: none;
+            }
+
+            .flex-1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
+
+            .flex-2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 100px 0 10px 0;
+            }
+
+            .headline {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+                font-size: 60px;
+                color: white;
+                text-align: center;
+                width: 95%;
+                margin: 30px 0 30px 0;
+            }
+
+            .headline-2 {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+                font-size: 30px;
+                color: white;
+                text-align: center;
+                width: 95%;
+                margin: 0 0 20px 0;
+                line-height: 1.2;
+            }
+
+
+            .pricing {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+                font-size: 15px;
+                color: white;
+                text-align: center;
+                width: 95%;
+            }
+
+            .pp {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+                font-size: 15px;
+                color: white;
+                text-align: center;
+                width: 95%;
+            }
+
+            .container-cta {
+                height: 58px;
+                max-width: 348px;
+                width: 95%;
+                display: none;
+            }
+
+            .cta {
+                background-color: #f4353f;
+                height: 58px;
+                max-width: 348px;
+                width: 100%;
+                box-shadow: 0 0 80px 1px #f4353f;
+                border-radius: 60px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                font-size: 18px;
+                color: white;
+                cursor: pointer;
+                padding: 0 30px 0 30px;
+                animation: pulse 1.6s infinite;
+                margin: 40px 0 50px 0;
+            }
+
+            @keyframes pulse {
+                0% {
+                transform: scale(1);
+                }
+                50% {
+                transform: scale(1.1);
+                }
+                100% {
+                transform: scale(1);
+                }
+            }
+
+            .container-vsl {
+                max-height: 439px;
+                max-width: 780px;
+                height: 100%;
+                width: 95%;
+                margin: 0 0 50px 0;
+            }
+
+            .container-vsl-2 {
+                position: relative;
+                overflow: visible;
+                width: 100%;
+                padding-top: 56.25%;
+            }
+
+            .vsl {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 20px;
+                z-index: 1;
+            }
+
+        </style>
+
+        <script defer>
+
+            // DELAY
+            var divs = document.querySelectorAll('.container-cta, .container_ticket_cta, .container_cta_end, .container-cta-bar-button');
+
+            setTimeout(function() {
+                // Mostra as divs
+                divs.forEach(function(div) {
+                    div.style.display = 'block';
+                });
+            }, 5000);
+
+        </script>
+
+    </header>
+
+</body>
+</html>
